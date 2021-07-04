@@ -1,0 +1,31 @@
+{
+  "name": "js-spec-note",
+  "version": "1.0.0",
+  "description": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsc --watch --preserveWatchOutput",
+    "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@js-spec-note/local-client": "^1.0.0"
+  },
+  "devDependencies": {
+    "@js-spec-note/local-api": "^1.0.0",
+    "@types/express": "^4.17.12",
+    "@types/node": "^15.12.4",
+    "commander": "^8.0.0",
+    "esbuild": "0.8.26",
+    "typescript": "^4.3.4"
+  },
+  "gitHead": "00391e927bcd0a8b7e271ec9d6a5913eba602588"
+}
