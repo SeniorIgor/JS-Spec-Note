@@ -2,11 +2,11 @@
 
 A simple code snippet manager for developers built with TypeScript & React.
 
-# Overview
+## Overview
 
 The aim of this project is to make us more efficient by offering a pretty cool tool - a kind of notepad for our code.
 
-# Install
+## Install
 
 ```sh
 $ npm install -g js-spec-note
@@ -18,7 +18,7 @@ Otherwise adding before comands npx
 $ npx js-spec-note serve
 ```
 
-# Commands
+## Commands
 
 ### `serve`
 
@@ -68,7 +68,7 @@ Display help for commands. Get help for serve command.
 $ js-spec-note --help serve
 ```
 
-# Usage
+## Usage
 
 Open in browser http://localhost:4005 (by default) to edit the file.
 
@@ -82,7 +82,7 @@ Using `show()` function for the render react element!
 show(<h1>Hi there!</h1>);
 ```
 
-# Advanced usage
+## Advanced usage
 
 The project consists of multiple packages. For managing this project using
 <a href="https://github.com/lerna/lerna">Lerna</a> tool.
